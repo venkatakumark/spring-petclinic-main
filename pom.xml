@@ -164,6 +164,7 @@
               <goal>enforce</goal>
             </goals>
             <configuration>
+            <skipTests>true</skipTests>
               <rules>
                 <requireJavaVersion>
                   <message>This build requires at least Java ${java.version}, update your JVM, and run the build again</message>

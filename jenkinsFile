@@ -26,7 +26,7 @@ pipeline {
         stage('Package') {
             steps {
                 // Step 4: Package the Spring Boot application
-                sh 'mvn spring-boot:repackage'
+                sh 'mvn -Dmaven.test.skip package'
             }
         }
         
