@@ -15,7 +15,7 @@ pipeline {
                 sh 'mvn -Dmaven.test.skip package'
             }
         }
-
+        // commented tests
         // stage('Test') {
         //     steps {
         //         // Step 3: Run tests
